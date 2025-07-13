@@ -60,7 +60,7 @@ const Contact = () => {
               {t('home.hero.call')}
             </a>
             <a
-              href="mailto:nkapluc@ymail.com"
+              href="mailto:info@leomaxelectrique.ca"
               className="flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-cyan-600 transition-colors"
             >
               <Mail className="h-5 w-5 mr-2" />
@@ -95,7 +95,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">{t('contact.email')}</h3>
                   <p className="text-gray-600">
-                    <a href="mailto:nkapluc@ymail.com" className="hover:text-cyan-600 transition-colors">
+                    <a href="mailto:info@leomaxelectrique.ca" className="hover:text-cyan-600 transition-colors">
                       {t('common.email')}
                     </a>
                   </p>

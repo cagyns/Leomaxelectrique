@@ -281,7 +281,7 @@ const translations = {
     'faq.general.emergency.a': 'Oui, nous fournissons des services électriques d\'urgence 24/7. Si vous avez une panne de courant, un incendie électrique ou d\'autres problèmes de sécurité électrique urgents, appelez-nous immédiatement au (438) 876-0485. Nous répondons généralement aux urgences dans les 2 heures.',
     
     'faq.general.quote.q': 'Comment puis-je obtenir une soumission?',
-    'faq.general.quote.a': 'Vous pouvez obtenir une soumission gratuite en nous appelant au (438) 876-0485, en remplissant notre formulaire de contact en ligne, ou en nous envoyant un courriel à nkapluc@ymail.com. Nous planifierons un moment convenable pour évaluer votre projet et fournir une estimation détaillée.',
+    'faq.general.quote.a': 'Vous pouvez obtenir une soumission gratuite en nous appelant au (438) 876-0485, en remplissant notre formulaire de contact en ligne, ou en nous envoyant un courriel à info@leomaxelectrique.ca. Nous planifierons un moment convenable pour évaluer votre projet et fournir une estimation détaillée.',
 
     // Pricing & Payment FAQ
     'faq.pricing.estimates.q': 'Facturez-vous pour les estimations?',
@@ -384,7 +384,7 @@ const translations = {
     // Common
     'common.required': 'requis',
     'common.phone': '(438) 876-0485',
-    'common.email': 'nkapluc@ymail.com',
+    'common.email': 'info@leomaxelectrique.ca',
     'common.address': '8 Chemin Saint Stanislas',
     'common.city': 'Terrebonne, QC J7M 1Z5',
     
@@ -657,7 +657,7 @@ const translations = {
     'faq.general.emergency.a': 'Yes, we provide 24/7 emergency electrical services. If you have a power outage, electrical fire, or other urgent electrical safety issues, call us immediately at (438) 876-0485. We typically respond to emergencies within 2 hours.',
     
     'faq.general.quote.q': 'How do I get a quote?',
-    'faq.general.quote.a': 'You can get a free quote by calling us at (438) 876-0485, filling out our online contact form, or emailing us at nkapluc@ymail.com. We\'ll schedule a convenient time to assess your project and provide a detailed estimate.',
+    'faq.general.quote.a': 'You can get a free quote by calling us at (438) 876-0485, filling out our online contact form, or emailing us at info@leomaxelectrique.ca. We\'ll schedule a convenient time to assess your project and provide a detailed estimate.',
 
     // Pricing & Payment FAQ
     'faq.pricing.estimates.q': 'Do you charge for estimates?',
@@ -760,7 +760,7 @@ const translations = {
     // Common
     'common.required': 'required',
     'common.phone': '(438) 876-0485',
-    'common.email': 'nkapluc@ymail.com',
+    'common.email': 'info@leomaxelectrique.ca',
     'common.address': '8 Chemin Saint Stanislas',
     'common.city': 'Terrebonne, QC J7M 1Z5',
     
