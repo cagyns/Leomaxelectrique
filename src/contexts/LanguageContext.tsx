@@ -136,7 +136,7 @@ const translations = {
     'about.story.p3': 'Nous sommes fièrement licenciés RBQ (no 5838‑8075‑01, délivré le 29 septembre 2023) et pleinement assurés. Notre équipe qualifiée partage une exigence d’excellence. Avec plus de 500 projets complétés à ce jour, nous continuons à servir notre communauté avec passion, intégrité et savoir‑faire.',
     'about.values.title': 'Nos Valeurs',
     'about.values.subtitle': 'Les principes qui guident notre travail et définissent notre engagement envers l\'excellence',
-    'about.values.safety.title': 'Sécurité d'abord',
+    'about.values.safety.title': 'Sécurité d\'abord',
     'about.values.safety.desc': 'Nous priorisons la sécurité dans chaque projet, suivant des codes électriques stricts et des protocoles de sécurité pour protéger votre propriété et votre famille.',
     'about.values.quality.title': 'Travail de Qualité',
     'about.values.quality.desc': 'Nos électriciens qualifiés livrent un travail de qualité exceptionnelle qui résiste à l\'épreuve du temps, soutenu par notre garantie complète.',
