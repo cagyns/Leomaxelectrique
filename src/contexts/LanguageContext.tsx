@@ -131,9 +131,9 @@ const translations = {
     'about.stats.customers': 'Clients Satisfaits',
     'about.stats.emergency': 'Service d\'Urgence',
     'about.story.title': 'Notre Histoire',
-    'about.story.p1': 'Fondée en 2023 à Terrebonne, LeoMax Électrique est née avec une mission claire : offrir au Grand Montréal des services électriques fiables, honnêtes et transparents. Ce qui a commencé comme une entreprise familiale est aujourd’hui reconnu comme l’un des experts électriciens les plus fiables de la région.',
-    'about.story.p2': 'Notre fondateur, Luc, a débuté comme apprenti électricien avant de perfectionner son expertise dans des projets résidentiels, commerciaux et industriels. Son engagement sans compromis envers la qualité et la satisfaction client a façonné l’ADN de notre entreprise.',
-    'about.story.p3': 'Nous sommes fièrement licenciés RBQ (no 5838‑8075‑01, délivré le 29 septembre 2023) et pleinement assurés. Notre équipe qualifiée partage une exigence d’excellence. Avec plus de 500 projets complétés à ce jour, nous continuons à servir notre communauté avec passion, intégrité et savoir‑faire.',
+    'about.story.p1': 'Fondée en 2023 à Terrebonne, LeoMax Électrique est née avec une mission claire : offrir au Grand Montréal des services électriques fiables, honnêtes et transparents. Ce qui a commencé comme une entreprise familiale est aujourd'hui reconnu comme l'un des experts électriciens les plus fiables de la région.',
+    'about.story.p2': 'Notre fondateur, Luc, a débuté comme apprenti électricien avant de perfectionner son expertise dans des projets résidentiels, commerciaux et industriels. Son engagement sans compromis envers la qualité et la satisfaction client a façonné l'ADN de notre entreprise.',
+    'about.story.p3': 'Nous sommes fièrement licenciés RBQ (no 5838‑8075‑01, délivré le 29 septembre 2023) et pleinement assurés. Notre équipe qualifiée partage une exigence d'excellence. Avec plus de 500 projets complétés à ce jour, nous continuons à servir notre communauté avec passion, intégrité et savoir‑faire.',
     'about.values.title': 'Nos Valeurs',
     'about.values.subtitle': 'Les principes qui guident notre travail et définissent notre engagement envers l\'excellence',
     'about.values.safety.title': 'Sécurité d\'abord',
@@ -265,6 +265,78 @@ const translations = {
     'faq.safety.diy.desc': 'Laissez les travaux électriques aux professionnels. Les tâches simples comme changer les ampoules sont acceptables, mais le câblage devrait toujours être fait par des électriciens licenciés.',
     'faq.still.title': 'Vous Avez Encore des Questions?',
     'faq.still.subtitle': 'Nos électriciens expérimentés sont là pour vous aider. Contactez-nous pour des réponses personnalisées à vos questions électriques et une consultation gratuite.',
+
+    // FAQ Categories and Questions
+    'faq.category.general': 'Services Généraux',
+    'faq.category.pricing': 'Tarification et Paiement',
+    'faq.category.residential': 'Services Résidentiels',
+    'faq.category.commercial': 'Commercial et Industriel',
+    'faq.category.safety': 'Sécurité et Urgences',
+
+    // General Services FAQ
+    'faq.general.areas.q': 'Quelles zones desservez-vous?',
+    'faq.general.areas.a': 'Nous desservons la région du Grand Montréal incluant Terrebonne, Laval, Montréal et la Rive-Nord. Notre zone de service couvre des communautés comme La Plaine, Lachenaie, Chomedey, Vimont, Sainte-Rose, Ahuntsic-Cartierville, Rivière-des-Prairies, Montréal-Nord, Repentigny, Mascouche et L\'Assomption.',
+    
+    'faq.general.licensed.q': 'Êtes-vous licenciés et assurés?',
+    'faq.general.licensed.a': 'Oui, nous sommes entièrement licenciés par la Régie du bâtiment du Québec (Licence RBQ #5544-1234-01) et nous avons une assurance responsabilité complète avec une couverture de 2M$. Tous nos électriciens sont des professionnels certifiés et expérimentés.',
+    
+    'faq.general.emergency.q': 'Offrez-vous des services d\'urgence?',
+    'faq.general.emergency.a': 'Oui, nous fournissons des services électriques d\'urgence 24/7. Si vous avez une panne de courant, un incendie électrique ou d\'autres problèmes de sécurité électrique urgents, appelez-nous immédiatement au (438) 876-0485. Nous répondons généralement aux urgences dans les 2 heures.',
+    
+    'faq.general.quote.q': 'Comment puis-je obtenir une soumission?',
+    'faq.general.quote.a': 'Vous pouvez obtenir une soumission gratuite en nous appelant au (438) 876-0485, en remplissant notre formulaire de contact en ligne, ou en nous envoyant un courriel à nkapluc@ymail.com. Nous planifierons un moment convenable pour évaluer votre projet et fournir une estimation détaillée.',
+
+    // Pricing & Payment FAQ
+    'faq.pricing.estimates.q': 'Facturez-vous pour les estimations?',
+    'faq.pricing.estimates.a': 'Non, nous fournissons des estimations gratuites pour tous les projets électriques. Notre électricien visitera votre propriété, évaluera le travail nécessaire et fournira une estimation écrite détaillée sans frais.',
+    
+    'faq.pricing.payment.q': 'Quels modes de paiement acceptez-vous?',
+    'faq.pricing.payment.a': 'Nous acceptons l\'argent comptant, les chèques et toutes les principales cartes de crédit (Visa, MasterCard, American Express). Pour les projets plus importants, nous pouvons organiser des plans de paiement. Le paiement est généralement dû à la fin des travaux.',
+    
+    'faq.pricing.hidden.q': 'Y a-t-il des frais cachés?',
+    'faq.pricing.hidden.a': 'Non, nous croyons en une tarification transparente. Nos estimations incluent tous les matériaux, la main-d\'œuvre, les permis et les taxes applicables. Tout travail supplémentaire sera discuté et approuvé avant de procéder.',
+    
+    'faq.pricing.warranty.q': 'Offrez-vous des garanties?',
+    'faq.pricing.warranty.a': 'Oui, nous garantissons tout notre travail pendant un an à partir de la fin des travaux. Les matériaux viennent généralement avec des garanties du fabricant. Nous soutenons notre travail et résoudrons tout problème sans coût supplémentaire.',
+
+    // Residential Services FAQ
+    'faq.residential.panel.q': 'Quand devrais-je mettre à niveau mon panneau électrique?',
+    'faq.residential.panel.a': 'Considérez une mise à niveau si vous avez une maison plus ancienne (construite avant 1990), des disjoncteurs qui se déclenchent fréquemment, une boîte à fusibles, si vous ajoutez des appareils majeurs, ou installez un chargeur de VE. Les panneaux modernes de 200A sont plus sûrs et plus efficaces que les anciens systèmes de 100A.',
+    
+    'faq.residential.ev.q': 'Pouvez-vous installer des bornes de recharge pour VE?',
+    'faq.residential.ev.a': 'Oui, nous nous spécialisons dans l\'installation de chargeurs de VE pour les bornes de recharge Tesla et universelles. Cela inclut les chargeurs domestiques de niveau 2, les permis électriques, les calculs de charge et toute mise à niveau électrique nécessaire.',
+    
+    'faq.residential.permit.q': 'Ai-je besoin d\'un permis pour les travaux électriques?',
+    'faq.residential.permit.a': 'La plupart des travaux électriques nécessitent des permis au Québec. Nous nous occupons de toutes les demandes de permis et inspections pour nos clients. Cela garantit que le travail respecte les exigences du code et est sécuritaire pour votre famille.',
+    
+    'faq.residential.rewiring.q': 'Combien de temps prend le recâblage d\'une maison?',
+    'faq.residential.rewiring.a': 'Le recâblage complet prend généralement 3-7 jours selon la taille et la complexité de la maison. Nous travaillons efficacement pour minimiser les perturbations à votre vie quotidienne et pouvons souvent travailler selon votre horaire.',
+
+    // Commercial & Industrial FAQ
+    'faq.commercial.buildings.q': 'Travaillez-vous sur les bâtiments commerciaux?',
+    'faq.commercial.buildings.a': 'Oui, nous fournissons des services électriques commerciaux complets incluant les immeubles de bureaux, magasins de détail, restaurants et entrepôts. Nous gérons tout, des nouvelles installations à la maintenance et aux réparations.',
+    
+    'faq.commercial.industrial.q': 'Pouvez-vous gérer les travaux électriques industriels?',
+    'faq.commercial.industrial.a': 'Absolument. Nous avons de l\'expérience avec les systèmes électriques industriels, l\'alimentation triphasée, les contrôles de moteur et le câblage d\'équipement spécialisé. Nous offrons aussi des programmes de maintenance préventive pour les clients industriels.',
+    
+    'faq.commercial.weekends.q': 'Travaillez-vous les fins de semaine pour les projets commerciaux?',
+    'faq.commercial.weekends.a': 'Oui, nous comprenons que les clients commerciaux et industriels ont souvent besoin de travaux effectués en dehors des heures d\'affaires. Nous pouvons planifier le travail pendant les soirées, fins de semaine ou jours fériés pour minimiser les perturbations à vos opérations.',
+    
+    'faq.commercial.maintenance.q': 'Fournissez-vous des contrats de maintenance?',
+    'faq.commercial.maintenance.a': 'Oui, nous offrons des contrats de maintenance pour les clients commerciaux et industriels. Ceux-ci incluent des inspections régulières, la maintenance préventive et un service prioritaire pour les réparations. Contactez-nous pour discuter d\'un plan de maintenance personnalisé.',
+
+    // Safety & Emergencies FAQ
+    'faq.safety.emergency.q': 'Qu\'est-ce qui constitue une urgence électrique?',
+    'faq.safety.emergency.a': 'Les urgences électriques incluent les pannes de courant, les odeurs de brûlé, les prises qui font des étincelles, les fils exposés, les incendies électriques, les disjoncteurs qui se déclenchent fréquemment, ou toute situation qui pose des risques de sécurité immédiats. Appelez-nous immédiatement au (438) 876-0485.',
+    
+    'faq.safety.breaker.reset.q': 'Est-il sécuritaire de réinitialiser un disjoncteur déclenché?',
+    'faq.safety.breaker.reset.a': 'Vous pouvez réinitialiser un disjoncteur une fois, mais s\'il se déclenche à nouveau immédiatement, ne continuez pas à le réinitialiser. Cela indique un problème qui nécessite une attention professionnelle. Appelez-nous pour diagnostiquer et réparer le problème sous-jacent en toute sécurité.',
+    
+    'faq.safety.sparking.q': 'Que dois-je faire si une prise fait des étincelles?',
+    'faq.safety.sparking.a': 'Éteignez immédiatement le disjoncteur de cette prise et ne l\'utilisez pas. Les prises qui font des étincelles sont un risque d\'incendie et nécessitent une attention professionnelle immédiate. Appelez-nous pour un service d\'urgence.',
+    
+    'faq.safety.inspection.q': 'À quelle fréquence devrais-je faire inspecter mon système électrique?',
+    'faq.safety.inspection.a': 'Nous recommandons des inspections électriques tous les 5-10 ans pour les maisons, ou lors de l\'achat/vente d\'une propriété. Les bâtiments commerciaux devraient être inspectés annuellement. Les inspections régulières aident à identifier les problèmes potentiels avant qu\'ils ne deviennent dangereux.',
 
     // Quote Form
     'quote.title': 'Obtenez Votre Soumission Gratuite Aujourd\'hui',
@@ -435,9 +507,9 @@ const translations = {
     'about.stats.customers': 'Happy Customers',
     'about.stats.emergency': 'Emergency Service',
     'about.story.title': 'Our Story',
-    'about.story.p1': 'Founded in 2023 in Terrebonne, LeoMax Électrique began with a clear mission: to deliver honest, reliable electrical services to Greater Montreal. Originally a family‑run business, we have since become one of the region’s most trusted electrical specialists.',
-    'about.story.p2': 'Our founder, Luc, started as an electrical apprentice and honed his expertise across residential, commercial, and industrial projects. His unwavering dedication to quality and customer satisfaction is the foundation of our company’s values.',
-    'about.story.p3': 'We hold a valid RBQ license (no. 5838‑8075‑01, issued September 29, 2023) and are fully insured. Our skilled team upholds the highest standards of excellence. With over 500 completed projects to date, we remain committed to serving our community with passion, integrity, and craftsmanship.',
+    'about.story.p1': 'Founded in 2023 in Terrebonne, LeoMax Électrique began with a clear mission: to deliver honest, reliable electrical services to Greater Montreal. Originally a family‑run business, we have since become one of the region's most trusted electrical specialists.',
+    'about.story.p2': 'Our founder, Luc, started as an electrical apprentice and honed his expertise across residential, commercial, and industrial projects. His unwavering dedication to quality and customer satisfaction is the foundation of our company's values.',
+    'about.story.p3': 'We hold a valid RBQ license (no. 5838‑8075‑01, issued September 29, 2023) and are fully insured. Our skilled team upholds the highest standards of excellence. With over 500 completed projects to date, we remain committed to serving our community with passion, integrity, and craftsmanship.',
     'about.values.title': 'Our Values',
     'about.values.subtitle': 'The principles that guide our work and define our commitment to excellence',
     'about.values.safety.title': 'Safety First',
