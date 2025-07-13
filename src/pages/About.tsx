@@ -163,18 +163,18 @@ const About = () => {
       {[
         {
           icon: Shield,
-          title: t('about.team.expertise'),
-          desc: t('about.team.expertise.desc')
+          title: t('Expertise certifiée'),
+          desc: t('Électriciens licenciés avec formation continue et maîtrise des dernières normes.')
         },
         {
           icon: Clock,
-          title: t('about.team.reliability'),
-          desc: t('about.team.reliability.desc')
+          title: t('Fiabilité 24/7'),
+          desc: t('Disponibles pour les urgences, interventions rapides et respect des délais convenus')
         },
         {
           icon: CheckCircle,
-          title: t('about.team.satisfaction'),
-          desc: t('about.team.satisfaction.desc')
+          title: t('Satisfaction client'),
+          desc: t('Engagement envers un travail propre, expliqué et garanti — notre priorité.')
         }
       ].map((item, idx) => (
         <div key={idx} className="text-center">
