@@ -147,48 +147,47 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {t('about.team.title')}
-            </h2>
-            <p className="text-xl text-gray-600">
-              {t('about.team.subtitle')}
-            </p>
+     {/* Team Section */}
+<section className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Notre équipe / Our Team
+      </h2>
+      <p className="text-xl text-gray-600">
+        Notre équipe d’électriciens certifiés est dédiée à offrir un service professionnel, sûr et rapide, à chaque intervention à Terrebonne et environs.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[
+        {
+          icon: Shield,
+          title: t('about.team.expertise'),
+          desc: t('about.team.expertise.desc')
+        },
+        {
+          icon: Clock,
+          title: t('about.team.reliability'),
+          desc: t('about.team.reliability.desc')
+        },
+        {
+          icon: CheckCircle,
+          title: t('about.team.satisfaction'),
+          desc: t('about.team.satisfaction.desc')
+        }
+      ].map((item, idx) => (
+        <div key={idx} className="text-center">
+          <div className="bg-cyan-100 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4">
+            <item.icon className="h-12 w-12 text-cyan-600" />
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-gray-300 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl font-bold text-gray-600">LM</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Leo Maxime</h3>
-              <p className="text-cyan-600 font-medium mb-2">{t('about.team.leo.title')}</p>
-              <p className="text-gray-600">{t('about.team.leo.desc')}</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-gray-300 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl font-bold text-gray-600">MD</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Marc Dubois</h3>
-              <p className="text-cyan-600 font-medium mb-2">{t('about.team.marc.title')}</p>
-              <p className="text-gray-600">{t('about.team.marc.desc')}</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-gray-300 rounded-full w-32 h-32 flex items-center justify-center mx-auto mb-4">
-                <span className="text-4xl font-bold text-gray-600">AT</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Antoine Tremblay</h3>
-              <p className="text-cyan-600 font-medium mb-2">{t('about.team.antoine.title')}</p>
-              <p className="text-gray-600">{t('about.team.antoine.desc')}</p>
-            </div>
-          </div>
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
+          <p className="text-gray-600">{item.desc}</p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Certifications Section */}
       <section className="py-16 bg-cyan-600">
