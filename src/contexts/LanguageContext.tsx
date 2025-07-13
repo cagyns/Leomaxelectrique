@@ -176,6 +176,14 @@ const translations = {
     'about.why.warranty.desc': 'Tous les travaux soutenus par notre garantie de qualité et protection de garantie',
     'about.cta.title': 'Prêt à Travailler Avec Nous?',
     'about.cta.subtitle': 'Découvrez la différence LeoMax Électrique. Contactez-nous aujourd\'hui pour votre projet électrique.',
+    'about.team.section.title': 'Notre équipe',
+    'about.team.section.subtitle': 'Notre équipe d\'électriciens certifiés est dédiée à offrir un service professionnel, sûr et rapide, à chaque intervention à Terrebonne et environs.',
+    'about.team.expertise.title': 'Expertise certifiée',
+    'about.team.expertise.desc': 'Électriciens licenciés avec formation continue et maîtrise des dernières normes.',
+    'about.team.reliability.title': 'Fiabilité 24/7',
+    'about.team.reliability.desc': 'Disponibles pour les urgences, interventions rapides et respect des délais convenus',
+    'about.team.satisfaction.title': 'Satisfaction client',
+    'about.team.satisfaction.desc': 'Engagement envers un travail propre, expliqué et garanti — notre priorité.',
 
     // Contact Page
     'contact.title': 'Contactez LeoMax Électrique',
@@ -472,6 +480,14 @@ const translations = {
     'about.why.warranty.desc': 'All work backed by our quality guarantee and warranty protection',
     'about.cta.title': 'Ready to Work With Us?',
     'about.cta.subtitle': 'Experience the LeoMax Électrique difference. Contact us today for your electrical project.',
+    'about.team.section.title': 'Our Team',
+    'about.team.section.subtitle': 'Our team of certified electricians is dedicated to providing professional, safe, and fast service for every intervention in Terrebonne and surrounding areas.',
+    'about.team.expertise.title': 'Certified Expertise',
+    'about.team.expertise.desc': 'Licensed electricians with ongoing training and mastery of the latest standards.',
+    'about.team.reliability.title': '24/7 Reliability',
+    'about.team.reliability.desc': 'Available for emergencies, quick interventions and respect for agreed deadlines',
+    'about.team.satisfaction.title': 'Customer Satisfaction',
+    'about.team.satisfaction.desc': 'Commitment to clean, explained and guaranteed work — our priority.',
 
     // Contact Page
     'contact.title': 'Contact LeoMax Électrique',

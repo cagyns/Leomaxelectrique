@@ -152,10 +152,10 @@ const About = () => {
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-12">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Notre équipe
+        {t('about.team.section.title')}
       </h2>
       <p className="text-xl text-gray-600">
-        Notre équipe d’électriciens certifiés est dédiée à offrir un service professionnel, sûr et rapide, à chaque intervention à Terrebonne et environs.
+        {t('about.team.section.subtitle')}
       </p>
     </div>
 
@@ -163,18 +163,18 @@ const About = () => {
       {[
         {
           icon: Shield,
-          title: t('Expertise certifiée'),
-          desc: t('Électriciens licenciés avec formation continue et maîtrise des dernières normes.')
+          title: t('about.team.expertise.title'),
+          desc: t('about.team.expertise.desc')
         },
         {
           icon: Clock,
-          title: t('Fiabilité 24/7'),
-          desc: t('Disponibles pour les urgences, interventions rapides et respect des délais convenus')
+          title: t('about.team.reliability.title'),
+          desc: t('about.team.reliability.desc')
         },
         {
           icon: CheckCircle,
-          title: t('Satisfaction client'),
-          desc: t('Engagement envers un travail propre, expliqué et garanti — notre priorité.')
+          title: t('about.team.satisfaction.title'),
+          desc: t('about.team.satisfaction.desc')
         }
       ].map((item, idx) => (
         <div key={idx} className="text-center">
