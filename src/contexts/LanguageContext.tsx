@@ -268,7 +268,7 @@ const translations = {
 
     // FAQ Categories and Questions
     'faq.category.general': 'Services Généraux',
-    'faq.category.pricing': 'Tarification et Paiement',
+    'faq.category.pricing': 'Prix et Paiement',
     'faq.category.residential': 'Services Résidentiels',
     'faq.category.commercial': 'Commercial et Industriel',
     'faq.category.safety': 'Sécurité et Urgences',
@@ -294,17 +294,17 @@ const translations = {
     'faq.pricing.payment.a': 'Nous acceptons l\'argent comptant, les chèques et toutes les principales cartes de crédit (Visa, MasterCard, American Express). Pour les projets plus importants, nous pouvons organiser des plans de paiement. Le paiement est généralement dû à la fin des travaux.',
     
     'faq.pricing.hidden.q': 'Y a-t-il des frais cachés?',
-    'faq.pricing.hidden.a': 'Non, nous croyons en une tarification transparente. Nos estimations incluent tous les matériaux, la main-d\'œuvre, les permis et les taxes applicables. Tout travail supplémentaire sera discuté et approuvé avant de procéder.',
+    'faq.pricing.hidden.a': 'Non, nous croyons en la transparence des prix. Nos estimations incluent tous les matériaux, la main-d\'œuvre, les permis et les taxes applicables. Tout travail supplémentaire sera discuté et approuvé avant de procéder.',
     
     'faq.pricing.warranty.q': 'Offrez-vous des garanties?',
-    'faq.pricing.warranty.a': 'Oui, nous garantissons tout notre travail pendant un an à partir de la fin des travaux. Les matériaux viennent généralement avec des garanties du fabricant. Nous soutenons notre travail et résoudrons tout problème sans coût supplémentaire.',
+    'faq.pricing.warranty.a': 'Oui, nous garantissons tout notre travail pendant un an à partir de l\'achèvement. Les matériaux viennent généralement avec des garanties du fabricant. Nous soutenons notre travail et résoudrons tout problème sans coût supplémentaire.',
 
     // Residential Services FAQ
     'faq.residential.panel.q': 'Quand devrais-je mettre à niveau mon panneau électrique?',
     'faq.residential.panel.a': 'Considérez une mise à niveau si vous avez une maison plus ancienne (construite avant 1990), des disjoncteurs qui se déclenchent fréquemment, une boîte à fusibles, si vous ajoutez des appareils majeurs, ou installez un chargeur de VE. Les panneaux modernes de 200A sont plus sûrs et plus efficaces que les anciens systèmes de 100A.',
     
     'faq.residential.ev.q': 'Pouvez-vous installer des bornes de recharge pour VE?',
-    'faq.residential.ev.a': 'Oui, nous nous spécialisons dans l\'installation de chargeurs de VE pour les bornes de recharge Tesla et universelles. Cela inclut les chargeurs domestiques de niveau 2, les permis électriques, les calculs de charge et toute mise à niveau électrique nécessaire.',
+    'faq.residential.ev.a': 'Oui, nous nous spécialisons dans l\'installation de chargeurs de VE pour les bornes de recharge Tesla et universelles. Cela inclut les chargeurs domestiques de Niveau 2, les permis électriques, les calculs de charge et toutes les mises à niveau électriques nécessaires.',
     
     'faq.residential.permit.q': 'Ai-je besoin d\'un permis pour les travaux électriques?',
     'faq.residential.permit.a': 'La plupart des travaux électriques nécessitent des permis au Québec. Nous nous occupons de toutes les demandes de permis et inspections pour nos clients. Cela garantit que le travail respecte les exigences du code et est sécuritaire pour votre famille.',
@@ -641,6 +641,78 @@ const translations = {
     'faq.safety.diy.desc': 'Leave electrical work to professionals. Simple tasks like changing light bulbs are fine, but wiring should always be done by licensed electricians.',
     'faq.still.title': 'Still Have Questions?',
     'faq.still.subtitle': 'Our experienced electricians are here to help. Contact us for personalized answers to your electrical questions and a free consultation.',
+
+    // FAQ Categories and Questions
+    'faq.category.general': 'General Services',
+    'faq.category.pricing': 'Pricing & Payment',
+    'faq.category.residential': 'Residential Services',
+    'faq.category.commercial': 'Commercial & Industrial',
+    'faq.category.safety': 'Safety & Emergencies',
+
+    // General Services FAQ
+    'faq.general.areas.q': 'What areas do you serve?',
+    'faq.general.areas.a': 'We serve the Greater Montreal area including Terrebonne, Laval, Montreal, and the North Shore. Our service area covers communities like La Plaine, Lachenaie, Chomedey, Vimont, Sainte-Rose, Ahuntsic-Cartierville, Rivière-des-Prairies, Montreal-Nord, Repentigny, Mascouche, and L\'Assomption.',
+    
+    'faq.general.licensed.q': 'Are you licensed and insured?',
+    'faq.general.licensed.a': 'Yes, we are fully licensed by the Régie du bâtiment du Québec (RBQ License #5544-1234-01) and carry comprehensive liability insurance with $2M coverage. All our electricians are certified and experienced professionals.',
+    
+    'faq.general.emergency.q': 'Do you offer emergency services?',
+    'faq.general.emergency.a': 'Yes, we provide 24/7 emergency electrical services. If you have a power outage, electrical fire, or other urgent electrical safety issues, call us immediately at (438) 876-0485. We typically respond to emergencies within 2 hours.',
+    
+    'faq.general.quote.q': 'How do I get a quote?',
+    'faq.general.quote.a': 'You can get a free quote by calling us at (438) 876-0485, filling out our online contact form, or emailing us at nkapluc@ymail.com. We\'ll schedule a convenient time to assess your project and provide a detailed estimate.',
+
+    // Pricing & Payment FAQ
+    'faq.pricing.estimates.q': 'Do you charge for estimates?',
+    'faq.pricing.estimates.a': 'No, we provide free estimates for all electrical projects. Our electrician will visit your property, assess the work needed, and provide a detailed written estimate at no charge.',
+    
+    'faq.pricing.payment.q': 'What payment methods do you accept?',
+    'faq.pricing.payment.a': 'We accept cash, check, and all major credit cards (Visa, MasterCard, American Express). For larger projects, we can arrange payment plans. Payment is typically due upon completion of work.',
+    
+    'faq.pricing.hidden.q': 'Are there any hidden fees?',
+    'faq.pricing.hidden.a': 'No, we believe in transparent pricing. Our estimates include all materials, labor, permits, and applicable taxes. Any additional work will be discussed and approved before proceeding.',
+    
+    'faq.pricing.warranty.q': 'Do you offer warranties?',
+    'faq.pricing.warranty.a': 'Yes, we warranty all our workmanship for one year from completion. Materials typically come with manufacturer warranties. We stand behind our work and will address any issues at no additional cost.',
+
+    // Residential Services FAQ
+    'faq.residential.panel.q': 'When should I upgrade my electrical panel?',
+    'faq.residential.panel.a': 'Consider upgrading if you have an older home (built before 1990), frequently trip breakers, have a fuse box, are adding major appliances, or installing an EV charger. Modern 200A panels are safer and more efficient than older 100A systems.',
+    
+    'faq.residential.ev.q': 'Can you install EV charging stations?',
+    'faq.residential.ev.a': 'Yes, we specialize in EV charger installations for both Tesla and universal charging stations. This includes Level 2 home chargers, electrical permits, load calculations, and any necessary electrical upgrades.',
+    
+    'faq.residential.permit.q': 'Do I need a permit for electrical work?',
+    'faq.residential.permit.a': 'Most electrical work requires permits in Quebec. We handle all permit applications and inspections for our customers. This ensures the work meets code requirements and is safe for your family.',
+    
+    'faq.residential.rewiring.q': 'How long does rewiring a house take?',
+    'faq.residential.rewiring.a': 'Complete rewiring typically takes 3-7 days depending on the home size and complexity. We work efficiently to minimize disruption to your daily life and can often work around your schedule.',
+
+    // Commercial & Industrial FAQ
+    'faq.commercial.buildings.q': 'Do you work on commercial buildings?',
+    'faq.commercial.buildings.a': 'Yes, we provide comprehensive commercial electrical services including office buildings, retail stores, restaurants, and warehouses. We handle everything from new installations to maintenance and repairs.',
+    
+    'faq.commercial.industrial.q': 'Can you handle industrial electrical work?',
+    'faq.commercial.industrial.a': 'Absolutely. We have experience with industrial electrical systems, three-phase power, motor controls, and specialized equipment wiring. We also offer preventive maintenance programs for industrial clients.',
+    
+    'faq.commercial.weekends.q': 'Do you work on weekends for commercial projects?',
+    'faq.commercial.weekends.a': 'Yes, we understand that commercial and industrial clients often need work done outside business hours. We can schedule work during evenings, weekends, or holidays to minimize disruption to your operations.',
+    
+    'faq.commercial.maintenance.q': 'Do you provide maintenance contracts?',
+    'faq.commercial.maintenance.a': 'Yes, we offer maintenance contracts for commercial and industrial clients. These include regular inspections, preventive maintenance, and priority service for repairs. Contact us to discuss a customized maintenance plan.',
+
+    // Safety & Emergencies FAQ
+    'faq.safety.emergency.q': 'What constitutes an electrical emergency?',
+    'faq.safety.emergency.a': 'Electrical emergencies include power outages, burning smells, sparking outlets, exposed wires, electrical fires, frequent breaker trips, or any situation that poses immediate safety risks. Call us immediately at (438) 876-0485.',
+    
+    'faq.safety.breaker.reset.q': 'Is it safe to reset a tripped breaker?',
+    'faq.safety.breaker.reset.a': 'You can reset a breaker once, but if it trips again immediately, don\'t keep resetting it. This indicates a problem that needs professional attention. Call us to diagnose and fix the underlying issue safely.',
+    
+    'faq.safety.sparking.q': 'What should I do if an outlet is sparking?',
+    'faq.safety.sparking.a': 'Turn off the breaker to that outlet immediately and don\'t use it. Sparking outlets are a fire hazard and need immediate professional attention. Call us for emergency service.',
+    
+    'faq.safety.inspection.q': 'How often should I have my electrical system inspected?',
+    'faq.safety.inspection.a': 'We recommend electrical inspections every 5-10 years for homes, or when buying/selling property. Commercial buildings should be inspected annually. Regular inspections help identify potential problems before they become dangerous.',
 
     // Quote Form
     'quote.title': 'Get Your Free Quote Today',
