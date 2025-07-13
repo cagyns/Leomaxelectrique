@@ -309,7 +309,11 @@ const translations = {
     'common.phone': '(438) 876-0485',
     'common.email': 'nkapluc@ymail.com',
     'common.address': '8 Chemin Saint Stanislas',
-    'common.city': 'Terrebonne, QC J7M 1Z5'
+    'common.city': 'Terrebonne, QC J7M 1Z5',
+    
+    // Performance
+    'loading': 'Chargement...',
+    'error': 'Erreur'
   },
   en: {
     // Header
@@ -601,7 +605,11 @@ const translations = {
     'common.phone': '(438) 876-0485',
     'common.email': 'nkapluc@ymail.com',
     'common.address': '8 Chemin Saint Stanislas',
-    'common.city': 'Terrebonne, QC J7M 1Z5'
+    'common.city': 'Terrebonne, QC J7M 1Z5',
+    
+    // Performance
+    'loading': 'Loading...',
+    'error': 'Error'
   }
 };
 

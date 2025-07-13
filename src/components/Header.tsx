@@ -27,9 +27,10 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-4">
-              <span>{t('header.licensed')}</span>
+              <span className="hidden sm:inline">{t('header.licensed')}</span>
               <span>•</span>
-              <span>{t('header.emergency')}</span>
+              <span className="hidden sm:inline">{t('header.emergency')}</span>
+              <span className="sm:hidden">RBQ Licensed • 24/7 Service</span>
             </div>
             <div className="flex items-center space-x-4">
               <LanguageToggle />
